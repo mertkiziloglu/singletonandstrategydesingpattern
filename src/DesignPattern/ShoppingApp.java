@@ -1,4 +1,4 @@
-package singletonvestrategytasarimdesenleri;
+package DesignPattern;
 
 import java.util.ArrayList;
 
@@ -21,8 +21,9 @@ public class ShoppingApp
     }
     //---------------------------------------------------//
 
-    public ArrayList<Product> doShopping(boolean connectivity)
+    public ArrayList<Product> doShopping(boolean  connectivity)
     {
+
         if (connectivity) {
             strategy = NetworkManager.getInstance();
         } else

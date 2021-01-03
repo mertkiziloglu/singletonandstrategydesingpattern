@@ -1,4 +1,4 @@
-package singletonvestrategytasarimdesenleri;
+package DesignPattern;
 
 import java.util.ArrayList;
 
@@ -21,12 +21,10 @@ public class NetworkManager implements Strategy
 
 
 
-    //Fetches Products List from Server // serverdan getirilen ürün listesi
+    //Fetches Products List from Server
     @Override
     public ArrayList<Product> getProductsList()
     {
-
-
         ArrayList<Product> products = new ArrayList();
 
         products.add(new Product(1,"TSHIRT",100));

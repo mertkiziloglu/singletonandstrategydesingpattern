@@ -1,4 +1,4 @@
-package singletonvestrategytasarimdesenleri;
+package DesignPattern;
 
 import java.util.ArrayList;
 
